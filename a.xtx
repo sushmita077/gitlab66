@@ -1,0 +1,40 @@
+
+1.setting up and basic commands
+git congif user.name "sushmita077"
+git confit user.email "sushmitanagekar@gmail.com"
+git init 
+git clone
+git commit -m "heyyyy"
+
+2.creating and managing branches
+git branch -b feature-branch
+git checkout master
+git merge feature-branch
+git stash
+git stash apply
+git add .
+git commit -m "hyyy"
+git cheackout master
+git merge
+
+3.colloboration and remote repo
+git clone
+git checkout -b feature-branch
+git fetch origin
+git rebase origin
+
+4.git tags &releases
+git log
+git tag -a v1.0 -m "tagv1.0"
+git show vl.0
+
+5.advanced git operation 
+git status
+git log --oneline
+git checkout feature-branch
+git cherry-pick 34356738
+
+6.analyzing & chnaging git history
+git show
+git log --author=sushmoia007  --after="tmr" --before="today"
+git log -n 5 --oneline
